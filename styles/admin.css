@@ -1,0 +1,33 @@
+aside .main-links a {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+aside .main-links a:hover,
+aside .main-links a.active {
+    background-color: var(--main-color-darker-2);
+}
+
+aside .main-links a img {
+    opacity: 0.6;
+}
+
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+/* * */
+
+section {
+    padding: 20px;
+    background-color: #fff;
+}
